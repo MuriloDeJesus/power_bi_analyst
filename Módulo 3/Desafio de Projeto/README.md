@@ -19,10 +19,12 @@
 
 ✅ 3. Verifique a existência dos nulos e analise a remoção
 
-✅ 4. Os employees com nulos em Super_ssn podem ser os gerentes. Verifique se há algum colaborador sem gerente 
-    - Existe um employee e no meu entendimento ele é um gerente.
+✅ 4. Os employees com nulos em Super_ssn podem ser os gerentes. Verifique se há algum colaborador sem gerente
+    
+    - Existe um employee, e no meu entendimento ele é um gerente.
     
 ✅ 5. Verifique se há algum departamento sem gerente
+    
     - Todos possuem gerentes.
     
 ✅ 6. Se houver departamento sem gerente, suponha que você possui os dados e preencha as lacunas
@@ -42,6 +44,7 @@
 ✅ 13. Mescle os nomes de departamentos e localização. Isso fará que cada combinação departamento-local seja único. Isso irá auxiliar na criação do modelo estrela em um módulo futuro.
 
 ✅ 14. Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribuir.
+    
     - Caso a questão esteja falando sobre o recurso Append/Acrescentar, neste caso não faria sentido por conta do funcionamento dele. As tabelas selecionadas são juntas e todas as colunas das tabelas são mantidas, caso uma das tabelas não tenha o dado de uma coluna que estava em outra tabela, esse dado fica nulo.
 
 ✅ 15. Agrupe os dados a fim de saber quantos colaboradores existem por gerente
